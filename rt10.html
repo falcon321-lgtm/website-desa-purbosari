@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RT 10 - Desa Purbosari</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS khusus RT 10 -->
+    <style>
+        .gallery-grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        @media (max-width:768px){
+            .gallery-grid{
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<section class="gallery">
+
+    <h1>RT 10</h1>
+
+    <div class="gallery-grid">
+
+        <!-- Masjid Nurul Huda -->
+        <div class="gallery-item">
+            <img src="images/masjid-nurul-huda.jpeg" alt="Masjid Nurul Huda">
+            <h3>Masjid Nurul Huda</h3>
+        </div>
+
+        <!-- SDN 158 Seluma -->
+        <div class="gallery-item">
+            <img src="images/sdn-158-seluma.jpeg" alt="SDN 158 Seluma">
+            <h3>SDN 158 Seluma</h3>
+        </div>
+
+        <!-- Kediaman Kepala Desa -->
+        <div class="gallery-item">
+            <img src="images/kediaman-kepala-desa.jpeg" alt="Kediaman Kepala Desa">
+            <h3>Kediaman Kepala Desa</h3>
+        </div>
+
+        <!-- Mushola Al-Falaq -->
+        <div class="gallery-item">
+            <img src="images/mushola-al-fattah.jpeg" alt="Mushola Al-Fattah">
+            <h3>Mushola Al-Fattah</h3>
+        </div>
+
+    </div>
+
+    <a href="index.html" class="back-btn">
+        ← Kembali ke Beranda
+    </a>
+
+</section>
+
+</body>
+</html>

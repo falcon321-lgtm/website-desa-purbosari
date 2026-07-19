@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RT 14 - Desa Purbosari</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS khusus RT 14 -->
+    <style>
+        .gallery-grid{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .gallery-row{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            width: 100%;
+        }
+
+        /* Ukuran mengikuti style.css */
+        .gallery-row .gallery-item{
+            width: 100%;
+            max-width: 300px;
+        }
+
+        @media (max-width:768px){
+            .gallery-row{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .gallery-row .gallery-item{
+                max-width: 320px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<section class="gallery">
+
+    <h1>RT 14</h1>
+
+    <div class="gallery-grid">
+
+        <!-- Baris Atas -->
+        <div class="gallery-row">
+
+            <div class="gallery-item">
+                <img src="images/masjid-al-muhajirin.jpeg" alt="Masjid Al Muhajirin">
+                <h3>Masjid Al Muhajirin</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/smp-negeri-17-seluma.jpeg" alt="SMP Negeri 17 Seluma">
+                <h3>SMP Negeri 17 Seluma</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/balai-desa.jpeg" alt="Balai Desa">
+                <h3>Balai Desa</h3>
+            </div>
+
+        </div>
+
+        <!-- Baris Bawah -->
+        <div class="gallery-row">
+
+            <div class="gallery-item">
+                <img src="images/aula-pendidikan-islam-api.jpeg" alt="Aula Pendidikan Islam (API)">
+                <h3>Aula Pendidikan Islam (API)</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/paud-tks-makarti-pko.jpeg" alt="PAUD TKS Makarti PKO">
+                <h3>PAUD TKS Makarti PKO</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/puskesmas-pembantu-pustu.jpeg" alt="Puskesmas Pembantu (Pustu)">
+                <h3>Puskesmas Pembantu (Pustu)</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+    <a href="index.html" class="back-btn">
+        ← Kembali ke Beranda
+    </a>
+
+</section>
+
+</body>
+</html>
